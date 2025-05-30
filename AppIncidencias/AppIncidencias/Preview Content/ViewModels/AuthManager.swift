@@ -15,7 +15,8 @@ class AuthManager: ObservableObject {
     @Published var rol: Int?
 
     var isAuthenticated: Bool {
-        token != nil && rol == Constants.Roles.tecnico
+        //token != nil && rol == Constants.Roles.tecnico
+        token != nil
     }
 
     private init() {

@@ -8,7 +8,8 @@
 import Foundation
 
 struct APIEndpoints {
-    static let baseURL = "http://127.0.0.1:8000/api"
+    //static let baseURL = "http://127.0.0.1:8000/api"
+    static let baseURL = "http://172.20.228.203:8000/api"
 
     struct Auth {
         static let login = "\(baseURL)/auth/login"

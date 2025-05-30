@@ -10,12 +10,12 @@ import Foundation
 struct Constants {
 
     // MARK: - API
-    static let baseAPIURL = "http://127.0.0.1:8000/api"
+    static let baseAPIURL = "http://172.20.228.203:8000/api"
 
     // MARK: - Roles
     struct Roles {
-        static let tecnico = 2
-        static let administrador = 1
+        static let tecnico = 1
+        static let administrador = 2
         static let supervisor = 3
     }
 
